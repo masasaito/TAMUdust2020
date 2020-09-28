@@ -1,0 +1,21 @@
+&TAMUdust2020
+
+ ! path
+ TAMUdust2020path = '../tables/LW' 
+ outpath    = './output/TAMUdust2020create_exp2'
+ angfile    = './params/TAMUdust2020_Angle'
+ wavfile    = './params/TAMUdust2020_Wavelength_exp2'
+ sizfile    = './params/TAMUdust2020_Size'
+ refidxfile = './params/TAMUdust2020_RefractiveIndex_exp2'
+
+ ! table configuration (FIXED)
+ nsiztab   = 162
+ nrefretab = 29
+ nrefimtab = 19
+ nsphtab   = 6
+ 
+ ! database configuration
+ nsiz = 43              ! # of maximum dimesion bin
+ nwav = 39              ! # of wavelength bin
+ spher = 7.0000000E-01  ! Sphericity of paricles
+/
