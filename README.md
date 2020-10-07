@@ -366,7 +366,7 @@
          Data Availability section:
       
     "The scattering properties are obtained from TAMUdust2020
-    (https://sites.google.com/site/masanorisaitophd/data-and-software)."
+    (https://github.com/masasaito/TAMUdust2020)."
 
    ***Note: This will be modified after official publication of our paper.
       
