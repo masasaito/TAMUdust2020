@@ -22,7 +22,12 @@
                                 (0.2-200 micron).
  07/30/2020	Masa Saito	The database Version 0.9 has been 
                                 completed. 
-
+ 09/30/2020     Masa Saito      The database Version 0.9.9 has been 
+                                completed (This will automatically 
+                                be Version 1.0 after publication). 
+ 10/07/2020     Masa Saito      Source code published.
+  
+ 
  ***Note: Version 1.0 will be available after the publication of the 
           paper on the TAMUdust2020 database. 
 
@@ -38,7 +43,10 @@
 
    Reference:
 
-     1). Saito et al., in prep.
+     1). Saito, M., P. Yang, J. Ding, and X. Liu, A comprehensive 
+         database of the optical properties of irregular aerosol 
+         particles for radiative transfer simulations, J. Atmos. Sci., 
+         submitted.
 
 
 
