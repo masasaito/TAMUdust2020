@@ -59,7 +59,6 @@
                            database creation
        bin		:: Executable command path
        examples		:: Example files
-       examples/output  :: Directory for the output from the test run 
        examples/params  :: Directory for the parameter files for the 
                            test run 
 
@@ -150,7 +149,6 @@
    files and directories as follows:
  
      job_runTEST.sh		 :: job script for test run
-     output/ 			 :: a directory for output 
      params/			 :: a directory containing parameter 
      				    files
      TAMUdust2020create_exp1.nml :: namelist for database creation for 
@@ -167,7 +165,7 @@
      $ ./job_runTEST.sh
  
    Then, users will notice that the output files are created at
-   ./output/{DIRECTORY_FOR_EACH_EXAMPLE}/.  
+   the 'example' directory.  
 
 
 
@@ -210,7 +208,7 @@
 
        ! path
        TAMUdust2020path = '../tables/SW'                         !(FIXED)
-       outpath    = './output/TAMUdust2020create_exp1'           !(USER)   
+       outpath    = './output_folder'                            !(USER)   
        angfile    = './params/TAMUdust2020_Angle'                !(FIXED)
        wavfile    = './params/TAMUdust2020_Wavelength_exp1'      !(USER)
        sizfile    = './params/TAMUdust2020_Size'                 !(USER)
