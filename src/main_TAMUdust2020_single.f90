@@ -83,21 +83,12 @@ contains
 
  
       ! Initialization
-<<<<<<< HEAD
       read(argv(2), *)     Dust_siz
       read(argv(3), *)     Dust_wav
       read(argv(4), *)     Dust_refidx(1)
       read(argv(5), *)     Dust_refidx(2)
       read(argv(6), *)     Dust_sph
       read(argv(7), '(a)') Dust_outpath
-=======
-      read(argv(2), *) Dust_siz
-      read(argv(3), *) Dust_wav
-      read(argv(4), *) Dust_refidx(1)
-      read(argv(5), *) Dust_refidx(2)
-      read(argv(6), *) Dust_sph
-      read(argv(7), *) Dust_outpath
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
       Dust_nang    = Tab_nang  ! This will be flexible 
       Tab_nsiz     = nsiztab
       Tab_nReIdx   = nrefretab

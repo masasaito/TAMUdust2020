@@ -2,11 +2,7 @@
 
  ! path
  TAMUdust2020path = '../tables/LW' 
-<<<<<<< HEAD
  outpath    = './output/TAMUdust2020create_exp2'
-=======
- outpath    = './'
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
  angfile    = './params/TAMUdust2020_Angle'
  wavfile    = './params/TAMUdust2020_Wavelength_exp2'
  sizfile    = './params/TAMUdust2020_Size'

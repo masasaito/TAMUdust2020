@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ------------- READ-ME file for the TAMUdust2020 database ---------------
-=======
-------READ-ME file for the TAMUdust2020 database------
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
 
  This is a flexible user-friendly database for optical properties of 
  dust aerosol and volcanic ash particles. Various ensembles of 20 
@@ -26,20 +22,9 @@
                                 (0.2-200 micron).
  07/30/2020	Masa Saito	The database Version 0.9 has been 
                                 completed. 
-<<<<<<< HEAD
  10/07/2020     Masa Saito	Source code published.
  04/22/2021     Masa Saito	Data kernel published. 
                                 Version 1.0 released.
-=======
- 09/30/2020     Masa Saito      The database Version 0.9.9 has been 
-                                completed (This will automatically 
-                                be Version 1.0 after publication). 
- 10/07/2020     Masa Saito      Source code published.
-  
- 
- ***Note: Version 1.0 will be available after the publication of the 
-          paper on the TAMUdust2020 database. 
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
 
 
 
@@ -56,11 +41,7 @@
      1). Saito, M., P. Yang, J. Ding, and X. Liu, A comprehensive 
          database of the optical properties of irregular aerosol 
          particles for radiative transfer simulations, J. Atmos. Sci., 
-<<<<<<< HEAD
          in press, https://doi.org/10.1175/JAS-D-20-0338.1.
-=======
-         submitted.
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
 
 
 
@@ -73,35 +54,21 @@
                            database creation
        bin		:: Executable command path
        examples		:: Example files
-<<<<<<< HEAD
        examples/output  :: Directory for the output from the test run 
-=======
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
        examples/params  :: Directory for the parameter files for the 
                            test run 
 
      In addition to these three directories, users will need to obtain 
-<<<<<<< HEAD
      the following directory data from Zenodo.org (see the database 
      webpage: https://sites.google.com/site/masanorisaitophd/
      data-and-resources/tamudust2020).
-=======
-     the following directory data from:
-
-     (Table path will be publicly available after the publication of 
-      the paper. Please contact to the lead developer to obtain the 
-      path for the database.)
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
 
        tables	 	:: Data kernel
        tables/SW 	:: Data kernel for shortwave (0.2-4 um)
        tables/LW 	:: Data kernel for longwave (>4 um)
-<<<<<<< HEAD
       
      The latest version of the source codes and examples may be 
      available from https://github.com/masasaito/TAMUdust2020.
-=======
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
 
 
 
@@ -179,10 +146,7 @@
    files and directories as follows:
  
      job_runTEST.sh		 :: job script for test run
-<<<<<<< HEAD
      output/ 			 :: a directory for output 
-=======
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
      params/			 :: a directory containing parameter 
      				    files
      TAMUdust2020create_exp1.nml :: namelist for database creation for 
@@ -199,11 +163,7 @@
      $ ./job_runTEST.sh
  
    Then, users will notice that the output files are created at
-<<<<<<< HEAD
    ./output/{DIRECTORY_FOR_EACH_EXAMPLE}/.  
-=======
-   the 'example' directory.  
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
 
 
 
@@ -246,11 +206,7 @@
 
        ! path
        TAMUdust2020path = '../tables/SW'                         !(FIXED)
-<<<<<<< HEAD
        outpath    = './output/TAMUdust2020create_exp1'           !(USER)   
-=======
-       outpath    = './output_folder'                            !(USER)   
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
        angfile    = './params/TAMUdust2020_Angle'                !(FIXED)
        wavfile    = './params/TAMUdust2020_Wavelength_exp1'      !(USER)
        sizfile    = './params/TAMUdust2020_Size'                 !(USER)
@@ -271,13 +227,8 @@
      for the corresponding data kernel and angle file that is fixed. 
 
      For other files/parameters marked as (USER) is a user-defined one 
-<<<<<<< HEAD
      editable as explained in the subsections below, including 
      wavelengths, size, refractive index, and sphericity.
-=======
-     editable as explained in the subsections below, including wavelengths, 
-     size, refractive index, and sphericity.
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
 
      To run tamudust2020create, simply type:
 
@@ -413,23 +364,11 @@
     generated from the database for research is to acknowledge our 
     contribution in a paper to be published by:
 
-<<<<<<< HEAD
       1. citing Saito et al. (2021) in a relevant section of the main 
          text. 
       2. adding the following description in Acknowledgement section 
          or Data Availability section:
          "The scattering properties are obtained from TAMUdust2020."
-=======
-      1. citing our paper in a relevant place of main text (this will be 
-         available upon the acceptance of our paper)
-      2. adding the following description in Acknowledgement section or 
-         Data Availability section:
-      
-    "The scattering properties are obtained from TAMUdust2020
-    (https://github.com/masasaito/TAMUdust2020)."
-
-   ***Note: This will be modified after official publication of our paper.
->>>>>>> c1312797ff9e90923ccd835d56677b1619403258
       
 
 
