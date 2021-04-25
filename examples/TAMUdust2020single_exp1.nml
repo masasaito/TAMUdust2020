@@ -1,0 +1,12 @@
+&TAMUdust2020
+
+ ! path
+ TAMUdust2020path = '../tables/SW' 
+ angfile    = './params/TAMUdust2020_Angle'
+
+ ! table configuration
+ nsiztab   = 169
+ nrefretab = 8
+ nrefimtab = 31
+ nsphtab   = 6
+/
