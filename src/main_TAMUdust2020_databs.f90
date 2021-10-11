@@ -1,7 +1,7 @@
 !+
 ! TAMUdust2020 
 ! 
-!   Provide a single-scattering properties of user-defined aerosol particles 
+!   Create a single-scattering property databse of user-defined aerosol particles 
 !   based on the TAMUdust2020 data kernels
 !
 !   Update: 
@@ -13,17 +13,16 @@
 !     Masa Saito  10/11/2021 Improved multi-dimensional linear interpolation.
 ! 
 !-
-program tamudust2020single
+program tamudust2020databs
 
-  use tamudust2020, only : TAMUdust2020single__init, TAMUdust2020__core, TAMUdust2020__final
+  use tamudust2020, only : TAMUdust2020databs__init, TAMUdust2020__core, TAMUdust2020__final
   implicit none
 
-
   ! TAMUdust2020 Core Process
-  call TAMUdust2020single__init()
+  call TAMUdust2020databs__init()
   call TAMUdust2020__core()
   call TAMUdust2020__final()
   stop
 
-end program tamudust2020single
+end program tamudust2020databs
 
