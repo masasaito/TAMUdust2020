@@ -25,7 +25,10 @@
  10/07/2020     Masa Saito	Source code published.
  04/22/2021     Masa Saito	Data kernel published. 
                                 Version 1.0 released.
- 10/11/2021     Masa Saito	Version 1.0.9
+ 10/11/2021     Masa Saito      Improved multi-dimensional linear interpolation.
+ 10/22/2021     Masa Saito      Required memory substantially reduced. 
+ 12/14/2021     Masa Saito	Released as Version 1.1.0
+
 
 
 
