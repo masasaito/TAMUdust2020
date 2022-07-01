@@ -86,7 +86,7 @@
       Qe  :: extinction efficiency
       SSA :: single-scattering albedo
       g   :: asymmetry factor
-      x   :: size parameters defined as x = pi*D/W
+      x   :: size parameters defined as x = 2*pi*D/W
       mr  :: real part of refractive index
       mi  :: imaginary part of refractive index
       S   :: sphericity
